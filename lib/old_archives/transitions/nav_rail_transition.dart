@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zenxkan_ui/animations.dart';
+import 'package:zenxkan_ui/old_archives/animations.dart';
 
 class NavRailTransition extends StatefulWidget {
   const NavRailTransition({

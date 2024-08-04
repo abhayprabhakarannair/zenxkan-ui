@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:zenxkan_ui/animations.dart';
-import 'package:zenxkan_ui/transitions/nav_rail_transition.dart';
+import 'package:zenxkan_ui/old_archives/animations.dart';
 
 import '../../destinations.dart';
+import '../../transitions/nav_rail_transition.dart';
 import 'animated_floating_action_button.dart';
 
 class DisappearingNavigationRail extends StatefulWidget {
@@ -38,7 +38,7 @@ class _DisappearingNavigationRailState
           children: [
             IconButton(
               onPressed: () {},
-              icon: Icon(Icons.menu),
+              icon: const Icon(Icons.menu),
             ),
             const SizedBox(
               height: 8,
