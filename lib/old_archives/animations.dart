@@ -15,7 +15,7 @@ class BarAnimation extends ReverseAnimation {
 class OffsetAnimation extends CurvedAnimation {
   OffsetAnimation({required super.parent})
       : super(
-          curve: Interval(
+          curve: const Interval(
             2 / 5,
             3 / 5,
             curve: Curves.easeInOutCubicEmphasized,
