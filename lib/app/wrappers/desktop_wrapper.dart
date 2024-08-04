@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hotkey_manager/hotkey_manager.dart' hide hotKeyManager;
 import 'package:tray_manager/tray_manager.dart' hide trayManager;
 import 'package:window_manager/window_manager.dart' hide windowManager;
-import 'package:zenxkan_ui/features/dashboard/presentation/dashboard_screen.dart';
+import 'package:zenxkan_ui/features/tasks/presentation/screens/task_list_screen.dart';
 
 class DesktopWrapper extends StatefulWidget {
   final WindowManager windowManager;
@@ -44,7 +44,7 @@ class _DesktopWrapperState extends State<DesktopWrapper>
 
   @override
   Widget build(BuildContext context) {
-    return const DashboardScreen();
+    return const TaskListScreen();
   }
 
   @override
