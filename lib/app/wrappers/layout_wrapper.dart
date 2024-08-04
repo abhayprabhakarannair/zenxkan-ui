@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:zenxkan_ui/config/router/destinations.dart';
+import 'package:zenxkan_ui/app/router/destinations.dart';
 
 class LayoutWrapper extends StatelessWidget {
   final Widget child;

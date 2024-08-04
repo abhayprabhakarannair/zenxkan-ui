@@ -9,5 +9,6 @@ class Destination {
 
 const List<Destination> destinations = <Destination>[
   Destination(Icons.dashboard, "Dashboard"),
+  Destination(Icons.view_kanban, "All Tasks"),
   Destination(Icons.settings, "Settings")
 ];
